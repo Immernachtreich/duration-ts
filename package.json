@@ -1,5 +1,5 @@
 {
-  "name": "duration-ts",
+  "name": "nanoduration",
   "version": "1.0.0",
   "description": "An immutable, non-negative, Rust-inspired `Duration` type for JavaScript and TypeScript",
   "type": "module",

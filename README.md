@@ -21,28 +21,10 @@ The library prioritizes correctness, explicitness, and simplicity over feature b
 
 ---
 
-## What this library does
-
-- Represents time as an immutable value (internally stored in nanoseconds)
-- Enforces **non-negative durations**
-- Provides **explicit unit constructors** (`seconds`, `milliseconds`, etc.)
-- Supports **saturating arithmetic** (durations never go negative)
-- Avoids all calendar, timezone, and locale concerns
-- Ships with **full TypeScript type definitions**
-
-### What it intentionally does not do
-
-- Date/time manipulation
-- Parsing human-readable strings
-- Time zones or calendars
-- Implicit unit coercion
-
----
-
 ## Installation
 
 ```sh
-npm install duration-ts
+npm install nanoduration
 ```
 
 ---
@@ -52,7 +34,7 @@ npm install duration-ts
 ### Creating durations
 
 ```ts
-import { Duration } from "duration-ts";
+import { Duration } from "nanoduration";
 
 const a = Duration.fromSecs(2);
 const b = Duration.fromMillis(500);
