@@ -1,5 +1,9 @@
 {
   "name": "nanoduration",
+  "author": {
+    "name": "Immernachtreich",
+    "email": "ebrahimtohfafarosh11@gmail.com"
+  },
   "version": "1.0.1",
   "description": "An immutable, non-negative, Rust-inspired `Duration` type for JavaScript and TypeScript",
   "type": "module",
@@ -14,6 +18,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Immernachtreich/nanoduration"
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
