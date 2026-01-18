@@ -1,7 +1,7 @@
 {
   "name": "duration-ts",
   "version": "1.0.0",
-  "description": "Immutable, unit-safe duration type for TypeScript",
+  "description": "An immutable, non-negative, Rust-inspired `Duration` type for JavaScript and TypeScript",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -23,7 +23,9 @@
     "time",
     "typescript",
     "immutable",
-    "esm"
+    "esm",
+    "rust",
+    "value-object"
   ],
   "license": "MIT"
 }
