@@ -4,7 +4,7 @@
     "name": "Immernachtreich",
     "email": "ebrahimtohfafarosh11@gmail.com"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An immutable, non-negative, Rust-inspired `Duration` type for JavaScript and TypeScript",
   "type": "module",
   "main": "./dist/index.js",
